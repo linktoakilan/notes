@@ -19,4 +19,10 @@ git checkout -- intro.txt -- download a gile from git
 git clone quickstart/ cloneofquickstart
 
 git remote add origin git@github.com:linktoakilan/chef.git
-git push -u origin master
+git push -u origin masters
+
+
+/home/linktoakilan/labs/chef/
+/home/linktoakilan/labs/docker/
+/home/linktoakilan/labs/git/
+/home/linktoakilan/labs/git-quickstart/
