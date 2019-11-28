@@ -23,6 +23,9 @@ git push -u origin masters
 
 
 cd /home/linktoakilan/labs/chef/
+git checkout
+git add .
+git commit -m "commit all"
 git push 
 cd /home/linktoakilan/labs/docker/
 git push 
