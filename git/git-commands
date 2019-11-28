@@ -22,7 +22,38 @@ git remote add origin git@github.com:linktoakilan/chef.git
 git push -u origin masters
 
 
-/home/linktoakilan/labs/chef/
-/home/linktoakilan/labs/docker/
-/home/linktoakilan/labs/git/
-/home/linktoakilan/labs/git-quickstart/
+cd /home/linktoakilan/labs/chef/
+git init
+git add .
+git commit -m "commit all"
+git remote add origin git@github.com:linktoakilan/chef.git
+git push -u origin masters
+
+cd /home/linktoakilan/labs/docker/
+git init
+git add .
+git commit -m "commit all"
+git remote add origin git@github.com:linktoakilan/docker.git
+git push -u origin masters
+
+cd /home/linktoakilan/labs/git/
+git init
+git add .
+git commit -m "commit all"
+git remote add origin git@github.com:linktoakilan/git1.git
+git push -u origin masters
+
+cd /home/linktoakilan/labs/git-quickstart/
+git init
+git add .
+git commit -m "commit all"
+git remote add origin git@github.com:linktoakilan/git-quickstart.git
+git push -u origin masters
+
+cd /home/linktoakilan/notes
+git init
+git add .
+git commit -m "commit all"
+git remote add origin git@github.com:linktoakilan/notes.git
+git push -u origin masters
+
