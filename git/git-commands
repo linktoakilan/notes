@@ -1,0 +1,22 @@
+git config -l
+git config --global user.name linktoakilan
+git config --global user.email linktoakilan@gmail.com
+
+sudo git config --system core.editor vim
+
+
+git init --initialize a reporitory
+git status -- shows status of the git track
+git add filename  or git add . -- starts tracking the file(s)
+git commit -m "test commit" -- updates added files into reporitory
+git log
+git rm filename -- delete from git reporitory
+git checkout -- intro.txt -- download a gile from git
+
+
+.gitignore file with files to be gnored
+
+git clone quickstart/ cloneofquickstart
+
+git remote add origin git@github.com:linktoakilan/chef.git
+git push -u origin master
